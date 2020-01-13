@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.all {
+  background-image: url(http://3s1g3n2bsdpb762o4c55ksmm.wpengine.netdna-cdn.com/wp-content/uploads/2017/01/home2-banner.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.all .first {
+  padding: 20rem 0;
+}
+.all .header {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  opacity: .9;
+  z-index: 99;
+}
+.all .header .header-left {
+  padding: 15px 0;
+}
+.all .header .header-right {
+  text-align: center;
+}
+.all .header .header-right .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.all .header .header-right .dropdown:hover .drop-content {
+  visibility: visible;
+  top: 100%;
+}
+.all .header .header-right .dropdown:hover .dropbtn a {
+  color: #B9B806;
+}
+.all .header .header-right .dropdown .dropbtn {
+  padding: 35px 15px;
+}
+.all .header .header-right .dropdown .dropbtn a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-family: 'David Libre', serif;
+  transition: .3s ease-in-out;
+}
+.all .header .header-right .dropdown .drop-content {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  background-color: white;
+  text-align: left;
+  padding: 20px 0 20px 25px;
+  min-width: 250px;
+  visibility: hidden;
+  transition: .5s all ease-in-out;
+}
+.all .header .header-right .dropdown .drop-content a {
+  display: block;
+  padding: 10px 0;
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+}
+.all .header .header-right .dropdown .drop-content a:hover {
+  color: #B9B806;
+}
+.all .header .header-right .dropdownhome {
+  position: relative;
+  display: inline-block;
+  background-color: #FFFF01;
+}
+.all .header .header-right .dropdownhome:hover .drop-content {
+  visibility: visible;
+  top: 100%;
+}
+.all .header .header-right .dropdownhome .dropbtn {
+  padding: 35px 15px;
+}
+.all .header .header-right .dropdownhome .dropbtn a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-family: 'David Libre', serif;
+  transition: .3s ease-in-out;
+}
+.all .header .header-right .dropdownhome .drop-content {
+  display: inline-block;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  background-color: white;
+  text-align: left;
+  padding: 20px 0 20px 25px;
+  min-width: 250px;
+  visibility: hidden;
+  transition: .5s all ease-in-out;
+}
+.all .header .header-right .dropdownhome .drop-content a {
+  color: #B9B806;
+  padding: 10px 0;
+  font-size: 14px;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+}
+
+.first-alt .parts {
+  position: relative;
+  background-color: #FFFF01;
+  padding: 60px 0;
+  text-align: center;
+  box-shadow: inset 20px 0px 30px -20px rgba(0, 0, 0, 0.3);
+}
+.first-alt .parts:hover .overlay {
+  visibility: visible;
+}
+.first-alt .parts:hover i {
+  transform: translateY(-30px);
+}
+.first-alt .parts span {
+  font-size: 18px;
+  font-family: 'David Libre', serif;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.first-alt .parts i {
+  font-size: 22px;
+  color: #000;
+  margin-right: 15px;
+  transition: .5s all ease-in-out;
+}
+.first-alt .parts .overlay {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FCDB34;
+  width: 100%;
+  height: 100%;
+  padding: 30px 0;
+  box-shadow: inset 20px 0px 30px -20px rgba(0, 0, 0, 0.3);
+}
+.first-alt .parts .overlay p {
+  font-size: 13px;
+}
+.first-alt .parts .overlay h4 {
+  font-size: 18px;
+}
+
+.top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 999;
+  width: 32px;
+  height: 43px;
+  cursor: pointer;
+  display: none;
+  transition: .3s ease-in-out;
+}
+
+/*# sourceMappingURL=style.css.map */
